@@ -31,6 +31,6 @@ async def verify(ctx):
 
 @bot.command()
 async def rules(ctx):
-    await ctx.send('📜 Rules: 1. No Hack 2. No Spam 3. Respect Staff')
+    await ctx.send('📜 https://discord.com/channels/1512366831783116881/1512368375299309662')
 
 bot.run(os.getenv('DISCORD_TOKEN'))
