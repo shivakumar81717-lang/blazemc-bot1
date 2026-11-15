@@ -27,7 +27,7 @@ async def verify(ctx):
         await ctx.send('Members role nahi mila!')
         return
     await ctx.author.add_roles(role)
-    await ctx.send('✅ Verified! Ab tu BlazeMC member hai!')
+    await ctx.send('✅ Verified! Now you are BlazeMc Member!')
 
 @bot.command()
 async def rules(ctx):
