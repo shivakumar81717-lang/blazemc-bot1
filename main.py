@@ -6,7 +6,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
 
-bot = commands.Bot(command_prefix='!', intents=intents)
+bot = commands.Bot(command_prefix='!', intents=intents, help_command=None)
 
 @bot.event
 async def on_ready():
@@ -18,7 +18,7 @@ async def help(ctx):
 
 @bot.command()
 async def ip(ctx):
-    await ctx.send('🎮 BlazeMC IP: `play.blazemc.space` Port: `19132`')
+    await ctx.send('🎮 BlazeMC IP: `play.blazemc.space`')
 
 @bot.command()
 async def verify(ctx):
